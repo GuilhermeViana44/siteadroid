@@ -1,0 +1,111 @@
+@charset "URF-8";
+
+
+@font-face {
+    font-family: "idroid";
+    src: url("idroid.otf") format("opentype"), url("idroid.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > nav{
+    background-image: linear-gradient(green,black);
+    color: white;
+    padding: 20px;
+    margin: -30px -30px -20px -30px;
+
+}
+.mcss{
+    text-align: center;
+    padding: 1px 1px 50px 1px;
+}
+.mlinks{
+    color: rgb(98, 170, 98);
+    padding:15px;
+    padding-bottom: 22px;
+    margin: 2PX;
+}
+.mlinks:hover{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+main p{
+    text-indent: 15px;
+    line-height: 2em;
+    font-size: 1.2em
+}
+
+main > nav{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin-top: 200px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 0px 0px 5px black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+div.video{
+    padding: 20px;
+    padding-bottom: 56.5%;
+
+    position: relative;
+
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+#tlinks > a{
+    background-color: lightgreen;
+    color: rgb(8, 46, 8);
+}
+h2{
+    font-family: "idroid", sans-serif;
+    color: darkgreen;
+}
+h3{
+    font-family: "idroid", sans-serif;
+    background-image: linear-gradient(to right, lightgreen, white);
+    color: darkgreen;
+}
+
+main img{
+    width: 100%;
+}
+
+nav > img.pequeno{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.bugdroid{
+    color: green;
+}
+#aside{
+    background-color: lightgreen;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+#aside>ul{
+    columns: 2;
+}
+#aside >  h1{
+    background-color: darkgreen;
+    font-size: 1.5em;
+    border-radius: 10px 10px 0px 0px;
+}
